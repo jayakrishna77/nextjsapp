@@ -4,9 +4,20 @@
   gap:10px;
 }
 
+.author {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .avatar {
   object-fit: cover;
   border-radius: 50%;
+}
+
+.info {
+  flex: 1;
 }
 
 .imageContainer {
